@@ -1,13 +1,13 @@
 В проекте были использованы следующие инструменты:
-Node.js v20+
-React v18+
-react-router-dom для роутинга
-TypeScript
-Представленное backend API 
-Интеграция с GigaChat
-Система сборки Vite
-Библиотека для HTTP-запросов Axios
-Docker
+- Node.js v20+
+- React v18+
+- react-router-dom для роутинга
+- TypeScript
+- Представленное backend API 
+- Интеграция с GigaChat
+- Система сборки Vite
+- Библиотека для HTTP-запросов Axios
+- Docker
 
 Реализованы страницы просмотра всех объявлений, конкретного объявления и редактирования объявления.
 
