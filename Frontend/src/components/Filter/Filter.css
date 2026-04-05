@@ -1,0 +1,135 @@
+.filter {    
+   width: 236px;
+   /* height: 247px;  */
+   min-height: 180px;
+   background-color: #FFFFFF;
+   border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: start;
+   padding-left: 20px;
+}
+
+.filter__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 224px;
+    margin-top: -20px;
+}
+
+.filter__content {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.35s ease;
+    overflow: hidden;
+}
+
+.filter__content.open {
+    grid-template-rows: 1fr;
+}
+
+.filter__content > div {
+    min-height: 0;
+}
+
+.button_accordion {
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter__checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.filter__checkbox-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+}
+
+.line {
+    margin-top: 15px;
+    width: 224px;
+    height: 1px;
+    background-color: #F0F0F0;
+}
+
+.refinement_switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.refinement_switch_h4 {
+    width: 180px;
+}
+
+.switch {
+    display: inline-block;
+    position: relative;
+    width: 44px;
+    height: 24px;
+}
+
+.switch input {
+    width: 0;
+    height: 0;
+    opacity: 1;
+}
+
+.move {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #BFBFBF;
+    border-radius: 23px;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.move::before {
+    position: absolute;
+    content: '';
+    background: #FFFFFF;
+    width: 18px;
+    height: 18px;
+    border-radius: 77px;
+    top: 0.2rem;
+    left: 3px;
+    box-shadow: 1px 1px 5px #00230B33; 
+    transition: 0.5s;
+}
+
+input:checked + .move{
+    background: #1890FF;
+
+}
+
+input:checked + .move::before {
+    transform: translate(20px, 0px);
+
+}
+
+input[type="checkbox"] {
+   accent-color: #1890FF;
+   width: 16px;
+   height: 16px;
+   border-radius: 2px;
+}

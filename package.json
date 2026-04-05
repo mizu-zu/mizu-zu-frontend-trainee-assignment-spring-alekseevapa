@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@headlessui/react": "^2.2.9",
+    "gigachat": "^0.0.19"
+  },
+  "devDependencies": {
+    "vite-plugin-node-polyfills": "^0.26.0"
+  }
+}

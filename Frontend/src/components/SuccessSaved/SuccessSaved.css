@@ -1,0 +1,22 @@
+.success-saved {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 328px;
+    height: 40px;
+    border: 1px solid #B7EB8F;
+    background-color: #F6FFED;
+    color: #1d1d1dd9;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.success-saved-img {
+    margin-left: 10px;
+}

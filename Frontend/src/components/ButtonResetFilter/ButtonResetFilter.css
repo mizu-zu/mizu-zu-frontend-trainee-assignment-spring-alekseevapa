@@ -1,0 +1,27 @@
+.buttonresetfilter {
+    width: 256px;
+    height: 41px;
+    background-color: #FFFFFF;
+    color: #848388;
+    font-family: 'Inter';
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e7e7e7;
+    color: #343434;
+}
+
+button:active {
+    background-color: #e7e7e7;
+    color: #343434;
+    border: 2px solid #a5a5a5;
+}
+

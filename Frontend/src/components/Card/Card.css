@@ -1,0 +1,79 @@
+.card {
+    position: relative;
+    width: 200px;
+    height: 268px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    /* margin: 20px 0 0 30px; */
+    border: 1px solid #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    cursor: pointer;
+}
+
+.card:active {
+    border: 1px solid #c7c7c7;
+}
+
+.card__img {
+    height: 150px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.categoryproduct {
+    position: absolute;
+    top: 135px;
+    left: 10px;
+    width: 111px;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px solid #D9D9D9;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.card__text {
+    padding-left: 15px;
+}
+
+.nameproduct_p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.priceproduct_p {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    color: #8c8c8c;
+    margin-bottom: 10px;
+}
+
+.revision {
+    width: 155px;
+    height: 26px;
+    border-radius: 8px;
+    background-color: #F9F1E6;
+    font-size: 14px;
+    color: #FAAD14;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.revision_circle {
+    border-radius: 100px;
+    height: 6px;
+    width: 6px;
+    background-color: #FAAD14;
+}

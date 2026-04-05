@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../public/fonts/Roboto-VariableFont_wdth\,wght.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../../public/fonts/Inter-VariableFont_opsz\,wght.ttf') format('opentype');
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    background-color: #F7F5F8;
+}
+
+.Titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 0px;
+    height: 65px;
+}
+
+.h1Title {
+    margin: 8px 0 0 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.h2Title {
+    margin: 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.app__filter_card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 1410px;
+    gap: 43px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    gap: 15px;
+}
+
+.cards__pagination {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.loading,
+.not_found, .error-message {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+
+.pagination__button {
+  border: 1px solid #D9D9D9;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination__button:hover:not(:disabled) {
+  background: #b9ddff;
+  color: #ffffff;
+  border: 1px solid #1890FF;
+}
+
+.pagination__button.active {
+    border: 1px solid #1890FF;
+    color: #64b4ff;
+}
+
+.pagination__button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
